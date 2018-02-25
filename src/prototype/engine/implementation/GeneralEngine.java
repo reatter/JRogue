@@ -1,6 +1,6 @@
-package prototype.engine.abstracts;
+package prototype.engine.implementation;
 
-import prototype.engine.implementation.GameState;
+import prototype.engine.abstracts.GeneralGameLoop;
 
 /**
  * Abstract class with the general abstract methods that a game engine should provide:
