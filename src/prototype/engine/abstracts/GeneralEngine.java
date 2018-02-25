@@ -1,5 +1,7 @@
 package prototype.engine.abstracts;
 
+import prototype.engine.implementation.GameState;
+
 /**
  * Abstract class with the general abstract methods that a game engine should provide:
  * <br>
@@ -9,7 +11,7 @@ package prototype.engine.abstracts;
  * <br>
  * 3) <code>GeneralEngine#handlePlayerInput()</code>
  * <p>
- * Also contains the GeneralGameState and the GeneralGameLoop as a field.
+ * Also contains the Singleton GeneralGameState and the Singleton GeneralGameLoop as a field.
  *  
  * @author Michael Lannert
  * 
@@ -17,7 +19,7 @@ package prototype.engine.abstracts;
  */
 public abstract class GeneralEngine {
 	
-	GeneralGameState gameState;
+	GameState gameState;
 	
 	GeneralGameLoop gameLoop;
 	
