@@ -1,4 +1,4 @@
-package models.creatures;
+package models.abstracts;
 
 import models.menues.Inventory;
 
