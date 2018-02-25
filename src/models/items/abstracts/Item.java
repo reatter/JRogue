@@ -14,19 +14,19 @@ public abstract class Item {
 	private String Description;
 
 	public String getName() {
-		return Name;
+		return this.Name;
 	}
 
 	public void setName(String name) {
-		Name = name;
+		this.Name = name;
 	}
 
 	public String getDescription() {
-		return Description;
+		return this.Description;
 	}
 
 	public void setDescription(String description) {
-		Description = description;
+		this.Description = description;
 	}
 	
 	
