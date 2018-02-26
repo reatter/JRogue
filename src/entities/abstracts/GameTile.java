@@ -22,6 +22,7 @@ public class GameTile extends GameEntity {
 	return this.location;
     }
 
+    // TODO setLocation(setLocation?) is hässlich
     public void setLocation(Point location) {
 	this.location = location;
     }
