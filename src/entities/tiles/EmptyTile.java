@@ -2,7 +2,7 @@ package entities.tiles;
 
 import entities.abstracts.GameTile;
 
-public class EmptyTile extends GameTile {
+public class EmptyTile extends GameTile implements Passable {
 
     /**
      * long serialVersionUID
@@ -13,6 +13,11 @@ public class EmptyTile extends GameTile {
 	super(id, x, y, depth);
 	setName("An empty tile.");
 	setDescription("There is nothing here.");
+    }
+
+    @Override
+    public Boolean isPassable() {
+	return true;
     }
 
 }
