@@ -10,6 +10,11 @@ import entities.abstracts.Creature;
  */
 public class Human extends Creature {
 
+    /**
+     * long serialVersionUID
+     */
+    private static final long serialVersionUID = -3767344699961536763L;
+
     public Human(long id) {
 	super(id);
 	setName("Just human.");

@@ -10,6 +10,11 @@ import entities.abstracts.Creature;
  */
 public class Goblin extends Creature {
 
+    /**
+     * long serialVersionUID
+     */
+    private static final long serialVersionUID = 5231227978130473246L;
+
     public Goblin(long id) {
 	super(id);
 	setName("A dirty goblin.");

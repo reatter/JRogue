@@ -9,6 +9,11 @@ import entities.menues.Inventory;
  */
 public abstract class Creature extends GameEntity {
 
+    /**
+     * long serialVersionUID
+     */
+    private static final long serialVersionUID = 6482712572449285319L;
+
     public Creature(long id) {
 	super(id);
     }

@@ -12,6 +12,11 @@ import entities.abstracts.Item;
  */
 public class Gold extends Item {
 
+    /**
+     * long serialVersionUID
+     */
+    private static final long serialVersionUID = -1016450672771261964L;
+
     public Gold(long id) {
 
 	super(id);
