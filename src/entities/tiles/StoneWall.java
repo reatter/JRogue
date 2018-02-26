@@ -11,7 +11,8 @@ public class StoneWall extends GameTile implements Passable {
 
     public StoneWall(long id, int x, int y, int depth) {
 	super(id, x, y, depth);
-	// TODO Auto-generated constructor stub
+	setName("The plain old Stone Wall.");
+	setDescription("Impenetrable and firm wall of stone.");
     }
 
     @Override
