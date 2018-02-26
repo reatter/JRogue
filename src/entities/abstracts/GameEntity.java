@@ -24,24 +24,24 @@ public abstract class GameEntity implements Serializable {
 	this.id = id;
     }
 
-    private String Name;
+    private String name = "";
 
-    private String Description;
+    private String description = "";
 
     public String getName() {
-	return this.Name;
+	return this.name;
     }
 
     public void setName(String name) {
-	this.Name = name;
+	this.name = name;
     }
 
     public String getDescription() {
-	return this.Description;
+	return this.description;
     }
 
     public void setDescription(String description) {
-	this.Description = description;
+	this.description = description;
     }
 
     public GameEntity(long id) {
