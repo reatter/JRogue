@@ -7,7 +7,6 @@ package prototype.engine.implementation;
  * Singleton class <code>GeneralGameState</code>, which contains a list of all <code>GameEntity</code>, 
  * which have to to be updated, drawn, and later, serialized.
  * 
- * @author Michael Lannert
  *
 
  */

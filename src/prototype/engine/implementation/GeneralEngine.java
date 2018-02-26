@@ -13,7 +13,6 @@ import prototype.engine.abstracts.GeneralGameLoop;
  * <p>
  * Also contains the Singleton GameState and the Singleton GameLoop as a field.
  *  
- * @author Michael Lannert
  * 
  *
  */

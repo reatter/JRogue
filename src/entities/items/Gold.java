@@ -1,27 +1,25 @@
 /**
  * 
  */
-package models.items;
+package entities.items;
 
-import models.items.abstracts.Item;
+import entities.abstracts.Item;
 
 /**
  * Gold.
  * 
- * @author Michael Lannert
  *
  */
 public class Gold extends Item {
-	
-	
-	public Gold () {
-		
-		this.setName("Gold");
-		
-		this.setDescription("A piece of the shiny and valuable metal. It glitters yellow and is cold to the touch.");
-		
-	}
-	
-	
+
+    public Gold(long id) {
+
+	super(id);
+
+	this.setName("Gold");
+
+	this.setDescription("A piece of the shiny and valueable metal. It glitters yellow and is cold to the touch.");
+
+    }
 
 }

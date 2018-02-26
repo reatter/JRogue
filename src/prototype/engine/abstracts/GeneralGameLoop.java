@@ -9,7 +9,6 @@ import prototype.engine.implementation.GameState;
  * 
  * General GameLoop for GameEnginge.
  * 
- * @author Michael Lannert
  * 
  * 
  *

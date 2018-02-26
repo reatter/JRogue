@@ -1,39 +1,36 @@
-package models.abstracts;
+package entities.abstracts;
 
-import models.menues.Inventory;
+import entities.menues.Inventory;
 
-public abstract class Creature {
-	
-	private int hp;
-	
-	private int id;
-	
-	private Inventory inventory;
+/**
+ * Superclass for all <code>Creature</code>-types
+ * 
+ *
+ */
+public abstract class Creature extends GameEntity {
 
-	public int getHp() {
-		return hp;
-	}
+    public Creature(long id) {
+	super(id);
+    }
 
-	public void setHp(int hp) {
-		this.hp = hp;
-	}
+    private int hp;
 
-	public int getId() {
-		return id;
-	}
+    private Inventory inventory;
 
-	public void setId(int id) {
-		this.id = id;
-	}
+    public int getHp() {
+	return hp;
+    }
 
-	public Inventory getInventory() {
-		return inventory;
-	}
+    public void setHp(int hp) {
+	this.hp = hp;
+    }
 
-	public void setInventory(Inventory inventory) {
-		this.inventory = inventory;
-	}
-	
-	
+    public Inventory getInventory() {
+	return inventory;
+    }
+
+    public void setInventory(Inventory inventory) {
+	this.inventory = inventory;
+    }
 
 }

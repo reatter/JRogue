@@ -1,9 +1,11 @@
-package models.menues;
+package entities.menues;
 
-public class Inventory {
+import entities.abstracts.GameEntity;
+
+public class Inventory extends GameEntity {
 	
-	public Inventory() {
-		
+	public Inventory(long id) {
+	    super(id);
 	}
 
 	
