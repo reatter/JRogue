@@ -18,10 +18,26 @@ public class GameTile extends GameEntity {
 
     private int depth;
 
+    public Point getLocation() {
+	return this.location;
+    }
+
+    public void setLocation(Point location) {
+	this.location = location;
+    }
+
+    public int getDepth() {
+	return this.depth;
+    }
+
+    public void setDepth(int depth) {
+	this.depth = depth;
+    }
+
     public GameTile(long id, int x, int y, int depth) {
 	super(id);
 	location.setLocation(x, y);
-	this.depth = depth;
+	this.setDepth(depth);
     }
 
 }
