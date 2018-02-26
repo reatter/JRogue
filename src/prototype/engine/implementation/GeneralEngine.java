@@ -11,7 +11,7 @@ import prototype.engine.abstracts.GeneralGameLoop;
  * <br>
  * 3) <code>GeneralEngine#handlePlayerInput()</code>
  * <p>
- * Also contains the Singleton GeneralGameState and the Singleton GeneralGameLoop as a field.
+ * Also contains the Singleton GameState and the Singleton GameLoop as a field.
  *  
  * @author Michael Lannert
  * 
@@ -24,19 +24,19 @@ public abstract class GeneralEngine {
 	GeneralGameLoop gameLoop;
 	
 	/**
-	 * Updates the <code> GeneralGameState </code>.
+	 * Updates the <code> GameState </code>.
 	 */
-	public abstract void update();
+	public abstract void update(GameState gameState);
 	
 	/**
-	 * Draws the <code> GeneralGameState </code>.
+	 * Draws the <code> GameState </code>.
 	 */
-	public abstract void draw();
+	public abstract void draw(GameState gameState);
 	
 	/**
 	 * Handles all player input.
 	 */
-	public abstract void handlePlayerInput();
+	public abstract void handlePlayerInput(GameState gameState);
 	
 	
 
